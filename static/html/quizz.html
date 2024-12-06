@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz de Perguntas</title>
+  </head>
+  <style>
+    /* Estilo para o corpo da página */
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('https://wallpapers.com/images/high/severus-snape-evil-vqvc4u08erjl90oj.webp'); /* Adicione o caminho da sua imagem */
+      background-size: cover;
+      background-position: center;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      height: 100%;
+    }
+
+    /* Estilo para a div de mensagem no canto superior esquerdo */
+    .message {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 18px;
+      color: yellow;
+    }
+
+    .message a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .message a:hover {
+      text-decoration: underline;
+    }
+
+    /* Estilo para o formulário */
+    #form_harry {
+      background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com opacidade */
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    #form_harry h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #4a4a4a;
+    }
+
+    #form_harry div {
+      margin-bottom: 20px;
+    }
+
+    #form_harry p {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    #form_harry ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    #form_harry li {
+      margin-bottom: 10px;
+    }
+
+    #form_harry label {
+      margin-left: 10px;
+      font-size: 16px;
+      color: #555;
+    }
+
+    #form_harry input[type="radio"] {
+      cursor: pointer;
+    }
+
+    button[type="submit"] {
+      background-color: #007bff;
+      color: black;
+      font-size: 16px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: block;
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+  <body>
+    <!-- Mensagem no canto superior esquerdo -->
+    <div class="message">
+      Deseja editar seu perfil? <a href="editar">Editar Perfil</a>
+    </div>
+
+    <!-- Formulário -->
+    <form id="form_harry">
+      <!-- Aqui vão os conteúdos do formulário -->
+    </form>
+  </body>
+  <script src="./quizz.js"></script>
+</html>
