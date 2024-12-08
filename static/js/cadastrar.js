@@ -1,6 +1,6 @@
 function irParaOQuizz() {
   setTimeout(() => {
-    window.location.href = "quizz";
+    window.location.href = "usuario";
   }, 1000);
 }
 
